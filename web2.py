@@ -1,8 +1,8 @@
 import streamlit as st
 import cv2
 
-image_placeholder = st.empty()
-if st.button('Start'):
+st.tittle('68 LandMarks place')
+Run=st.checkbox('run')
     FRAME_WINDOW = st.image([])
     cam=cv2.VideoCapture(1)
     while run:
