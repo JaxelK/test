@@ -10,4 +10,4 @@ while Run:
     ret,frame=cam.read()
     FRAME_WINDOW.image(frame)
 else:
-    srt.write('stopped')
+    srt.write("stopped")
