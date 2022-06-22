@@ -8,3 +8,4 @@ plotly==4.14.3
 numpy
 opencv-python-headless
 transformers
+streamlit_webrtc  
