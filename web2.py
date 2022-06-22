@@ -4,7 +4,7 @@ import cv2
 st.title("68 LandMarks place")
 Run=st.checkbox('run')
 FRAME_WINDOW = st.image([])
-cam=cv2.VideoCapture(1)
+cam=cv2.VideoCapture(0)
 
 while Run:
     ret,frame=cam.read()
